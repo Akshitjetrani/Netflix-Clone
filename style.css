@@ -1,0 +1,390 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+background-image: url("assats/IN-en-20240513-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+background-position: center center;
+background-repeat: no-repeat;
+background-size: max(1200px, 100vw);
+height: 70vh;
+position: relative;
+}
+
+.main .box {
+
+    height: 80vh;
+    width: 100%;
+    opacity: 0.7;
+    background-color: black;
+    position: absolute;
+    top:  0;
+}
+
+.main nav {
+    background-color: transparent;
+    padding:25px 10px;
+    z-index: 10;
+}
+.main nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 140vh;
+    margin: auto;
+    
+}
+
+.main nav img {
+    width: 150px;
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    height: calc(100% - 95px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: aliceblue;
+    position: relative;
+    gap: 15px;
+    padding: 0 23px;
+    
+}
+
+.hero> :nth-child(1){
+    font-weight: bolder;
+    font-size: 55px;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 200;
+    font-size: 25px;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 200;
+    font-size: 20px;
+    text-align: center;
+}
+
+.separation {
+    height: 11px;
+    background-color: rgb(52, 37, 37);
+    z-index: 20;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    z-index: 1;
+    gap: 10px;
+}
+
+.btn{
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 120px;
+    height: 45px;
+    color: antiquewhite;
+
+}
+.lang{
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 120px;
+    height: 45px;
+    color: black;
+}
+.get{
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 150px;
+    height: 45px;
+    color: aliceblue;
+
+}
+
+.btn-red{
+    background-color: rgb(245, 26, 26);
+    font-size: medium;
+}
+
+.main input{
+    width: 300px;
+    height: 19px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: transparent;
+    color: aliceblue; 
+}
+.main input::placeholder {
+    font-weight: 400;
+    font-size: 15px;
+    padding: 7px ;
+    align-items: center;
+    color: aliceblue;
+    text-rendering: 10px;
+}
+
+section .first {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 70vw;
+    margin: auto;
+    color: aliceblue;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+section{
+    padding-top: 15px;
+}
+section .demo{
+    position: relative;
+}
+
+section .demo img{
+    width: 555px;   
+}
+
+section .demo video{
+    position: absolute;
+    width: 550px;
+    top: 51px;
+    right: 0px;
+    z-index: -1;
+}
+section .first .context {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+.first .context{
+    gap: 15px;
+}
+.first .context > :nth-child(1){
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.first .context > :nth-child(2){
+    font-size: 1.3rem;
+}
+.first .context > :nth-child(3){
+    font-size: 1.3rem;
+}
+
+@media screen and (max-width: 1300px){
+
+    section .first {
+        flex-wrap: wrap;  
+    }
+    .section-3 .first {
+        flex-wrap: wrap;  
+    }
+    .section-3 .demo-1 img{
+        width: 450px;   
+    }
+    .section-3 .demo-1 video{
+        width: 100vw;
+        position: absolute;
+        top: 51px;
+        right: 0px;
+        z-index: -1;
+    }
+
+    .mo-view .mobile {
+        flex-wrap: wrap;  
+    }
+}
+
+
+
+
+.mo-view {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    
+}
+.mo-view .mobile img{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.mo-view .con{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;   
+    gap: 15px;
+}
+.mo-view .con > :nth-child(1){
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.mo-view .con > :nth-child(2){
+    font-size: 1.3rem;
+}
+.mo-view .con > :nth-child(3){
+    font-size: 1.3rem;
+}
+
+.mo-view .con > :nth-child(4){
+    font-size: 1.3rem;
+}
+
+.mo-view .con > :nth-child(5){
+    font-size: 1.3rem;
+}
+
+.section-3 .first {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 70vw;
+    margin: auto;
+    color: aliceblue;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-3 .demo-1{
+    position: relative;
+}
+
+.section-3 .demo-1 img{
+    width: 550px;   
+}
+
+.section-3 .demo-1 video{
+    width: 550px;
+    position: absolute;
+    top: 41px;
+    right: 101px;
+    z-index: -1;
+}
+
+
+
+.faq{
+    background-color: black;
+    padding: 34px;
+    
+}
+
+.faq h2 {
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: larger;
+
+}
+
+.faq .faqbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 15px;
+    max-width: 50vw;
+    margin: 30px auto;
+    cursor: pointer;
+    font-size: 24px;
+    transition: all 1s ease-out;
+}
+.faq .faqbox:hover{
+    color: rgb(227, 244, 244);
+    background-color: #414141;
+}
+
+.faq .text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    font-size: larger;
+}
+
+.faq .entry{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.faq input{
+    width: 300px;
+    height: 19px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: transparent;
+    color: aliceblue; 
+}
+.faq input::placeholder {
+    font-weight: 400;
+    font-size: 15px;
+    padding: 7px ;
+    align-items: center;
+    color: aliceblue;
+    text-rendering: 10px;
+}
+
+footer{
+    color: aqua;
+    max-width: 70vw;
+    margin: auto;
+    padding: 32px;
+    
+}
+
+footer .questions{
+    margin-bottom: 20px;
+}
+
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: antiquewhite;
+    max-width: 70vw;   
+}
+
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 50;
+}
+
